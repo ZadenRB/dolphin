@@ -57,6 +57,8 @@ cp Data/linux-env.sh ${APPDIR_HOOKS}
 qtchooser -install qt6 $(which qmake6) || true
 export QT_SELECT=qt6
 
+echo "Test"
+
 # Build the AppDir directory for this image
 mkdir -p AppDir
 ./Tools/linuxdeploy \
