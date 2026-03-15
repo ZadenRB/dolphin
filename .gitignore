@@ -53,4 +53,5 @@ CMakeLists.txt.user
 Externals/SlippiRustExtensions/target/
 AppDir/
 *.AppImage
+!Tools/linuxdeploy-plugin-qt-x86_64.AppImage
 # end slippi change
